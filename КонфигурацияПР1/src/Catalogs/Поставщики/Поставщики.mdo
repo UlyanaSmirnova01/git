@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28a87967-c4e7-4449-b592-af6420f3e6f4">
+  <producedTypes>
+    <objectType typeId="29f34dd7-4b6d-48b5-a94f-aeabfade486b" valueTypeId="eada3d56-16cf-415c-b209-fd43268a9328"/>
+    <refType typeId="d78352dd-d828-4e9e-bcec-b8115e5efb7f" valueTypeId="91a7d19f-b83c-4a44-a239-d9cf86da8bb0"/>
+    <selectionType typeId="fe36770f-d633-4e0b-abcf-acc6604c4c49" valueTypeId="9439d0d7-9f70-4c26-92cb-a40fd3d7a9a4"/>
+    <listType typeId="3732681f-6441-41ba-ae3b-ffb8f8261f9b" valueTypeId="fc8a14fd-d536-4ac4-9ae0-19a8fe1e6b6b"/>
+    <managerType typeId="07c7f24d-62d9-41ae-b093-ec1d3b400920" valueTypeId="cfc4bfe2-a524-4367-9cde-ef221f0f7c1d"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2b3766e5-c938-46f0-8dd6-12dfa75f7ca1">
+    <name>ЮрАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94145d82-9669-4a37-9477-3c90354265ac">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

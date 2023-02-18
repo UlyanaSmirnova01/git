@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36283ea-51ea-4e24-a80c-b9085755d59d">
+  <producedTypes>
+    <objectType typeId="cf6cad44-ab70-4f3a-8767-78149b7ce40d" valueTypeId="e3c1da7a-a2a7-40fa-b9f8-50f2686aa8f9"/>
+    <refType typeId="286b6526-7dbd-4bb2-b411-c8ecdded49eb" valueTypeId="9de550ef-4aa4-445a-82c1-0c1766c09da3"/>
+    <selectionType typeId="8be9f867-f710-4573-858d-5969ec933783" valueTypeId="61e7d35b-c28f-4ad9-815d-8fd3bfbcd6b4"/>
+    <listType typeId="d7829cba-e2cd-4946-aa08-e7abab43b2d4" valueTypeId="d3ee6355-1683-4fea-9adf-3f6f590cae9c"/>
+    <managerType typeId="389cd68e-5b7a-4d04-b75a-9d315b867270" valueTypeId="b940ad53-0c85-42ad-953a-6b4acaed1e73"/>
+  </producedTypes>
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Документы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Документы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="573f172e-871e-4241-9d2c-2bf968f71e2f">
+    <name>ДоговорАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67d13d47-a678-43f5-8f23-11108d5af00b">
+    <name>ДоговорПоОплатеТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор по оплате труда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="110d2329-44ca-49a9-8b2d-3ef0038f06a5">
+    <name>ДоговорСПоставщиками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с поставщиками</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09a651d5-c66e-41f9-a443-fcc7bd1f9761">
+    <name>ДоговорСМаркетологом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с маркетологом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="859e7c14-b4a1-4a29-a7bb-0b85bcbc4a95">
+    <name>ДоговорКуплиПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли продажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
