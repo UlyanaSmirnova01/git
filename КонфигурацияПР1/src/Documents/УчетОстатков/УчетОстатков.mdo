@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f14d6f86-2566-467f-b6d8-01cbbdd7a711">
+  <producedTypes>
+    <objectType typeId="94903004-f766-4ccc-8627-38163b7f30af" valueTypeId="a2c11b29-fa4b-4ebc-b1e6-d8521b70bca1"/>
+    <refType typeId="e82603ad-34de-4eb9-bf7a-bcd7a3cf87b8" valueTypeId="fbf5713d-bf2b-44ca-a5c5-f498fb4ab5c8"/>
+    <selectionType typeId="605dc1a8-a155-47b7-8715-82a5b85cad64" valueTypeId="b6123844-58e0-48ec-bfcc-9f505c2d1c6c"/>
+    <listType typeId="847e79b4-f3c4-43ad-98a3-94ce2edb277e" valueTypeId="d1e9c5e7-1fed-436a-89f4-8aec96d5aea3"/>
+    <managerType typeId="4a2c5a4f-7007-41c7-a545-2ba875ca78c9" valueTypeId="ad90eae4-52c5-46e2-a7f1-6c18be2beffb"/>
+  </producedTypes>
+  <name>УчетОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УчетОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

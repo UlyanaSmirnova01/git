@@ -38,6 +38,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Склад</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Поставщик</roles>
+  <roles>Role.Продавец</roles>
   <constants>Constant.АдресМагаз</constants>
   <constants>Constant.Валюта</constants>
   <constants>Constant.НазваниеМагаз</constants>
@@ -50,9 +54,16 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.ЧатБот</catalogs>
+  <catalogs>Catalog.Артикул</catalogs>
   <documents>Document.Заказ</documents>
+  <documents>Document.ЛистыЗаказа</documents>
   <documents>Document.ПоступлениеТовара</documents>
+  <documents>Document.ПриходТовара</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.РасходТовара</documents>
   <documents>Document.Расходы</documents>
   <documents>Document.РасчетыССотрудниками</documents>
+  <documents>Document.УчетОстатков</documents>
+  <reports>Report.ОтчетПродаж</reports>
+  <accumulationRegisters>AccumulationRegister.ПродажаТовара</accumulationRegisters>
 </mdclass:Configuration>
